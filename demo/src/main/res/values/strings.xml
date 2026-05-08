@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用名称 -->
+    <string name="app_name">UJU Ad Demo</string>
+    <string name="app_name_full">优聚智汇广告SDK演示</string>
+
+    <!-- 底部导航菜单项 -->
+    <string name="nav_home">首页</string>
+    <string name="nav_config">配置</string>
+    <string name="nav_test">广告测试</string>
+    <string name="nav_about">关于</string>
+    <string name="nav_permission">权限管理</string>
+
+    <!-- 首页文本 -->
+    <string name="home_welcome">欢迎使用UJU SDK</string>
+    <string name="home_description">聚合多种广告网络，提供高效的变现解决方案</string>
+    <string name="home_config_prompt">请先完成SDK配置再测试广告</string>
+    <string name="home_sdk_status">SDK状态</string>
+    <string name="home_sdk_initialized">已初始化</string>
+    <string name="home_sdk_not_initialized">未初始化</string>
+    <string name="home_go_config">去配置</string>
+    
+    <!-- 配置页面文本 -->
+    <string name="config_title">SDK配置</string>
+    <string name="config_app_id">应用ID</string>
+    <string name="config_app_id_hint">请输入应用ID</string>
+    <string name="config_app_id_default">your_app_id</string>
+    <string name="config_test_mode">测试模式</string>
+    <string name="config_test_mode_desc">测试模式下使用测试广告ID</string>
+    <string name="config_log_level">日志级别</string>
+    <string name="config_log_level_verbose">详细</string>
+    <string name="config_log_level_debug">调试</string>
+    <string name="config_log_level_info">信息</string>
+    <string name="config_log_level_warn">警告</string>
+    <string name="config_log_level_error">错误</string>
+    <string name="config_save">保存配置</string>
+    <string name="config_reset">重置</string>
+    <string name="config_init_sdk">初始化SDK</string>
+    <string name="config_init_success">SDK初始化成功</string>
+    <string name="config_init_failed">SDK初始化失败</string>
+    <string name="config_save_success">配置保存成功</string>
+    <string name="config_save_failed">配置保存失败</string>
+    
+    <!-- 广告测试页面文本 -->
+    <string name="ad_test_title">广告测试</string>
+    <string name="ad_test_banner">Banner广告</string>
+    <string name="ad_test_interstitial">插屏广告</string>
+    <string name="ad_test_rewarded">激励广告</string>
+    <string name="ad_test_feed">信息流广告</string>
+    <string name="ad_test_load">加载广告</string>
+    <string name="ad_test_show">显示广告</string>
+    <string name="ad_test_refresh">刷新广告</string>
+    <string name="ad_test_reset">重置状态</string>
+    <string name="ad_status_loading">加载中...</string>
+    <string name="ad_status_loaded">加载完成</string>
+    <string name="ad_status_failed">加载失败</string>
+    <string name="ad_status_not_loaded">未加载</string>
+    <string name="ad_status_showing">显示中</string>
+    <string name="ad_status_shown">已显示</string>
+    <string name="ad_status_closed">已关闭</string>
+    <string name="ad_reward_earned">奖励已发放</string>
+    <string name="ad_reward_failed">奖励发放失败</string>
+    <string name="ad_placement_id_hint">请输入广告位ID</string>
+    <string name="ad_unit_id_default_banner">banner_test_unit_id</string>
+    <string name="ad_unit_id_default_interstitial">interstitial_test_unit_id</string>
+    <string name="ad_unit_id_default_rewarded">rewarded_test_unit_id</string>
+    <string name="ad_unit_id_default_feed">feed_test_unit_id</string>
+    
+    <!-- 关于页面文本 -->
+    <string name="about_title">关于</string>
+    <string name="about_version">版本号</string>
+    <string name="about_company">UJU Ad Tech</string>
+    <string name="about_description">UJU广告SDK是一款高效的广告聚合平台，支持多种广告网络，帮助开发者实现广告变现。</string>
+    <string name="about_website">官方网站</string>
+    <string name="about_privacy">隐私政策</string>
+    <string name="about_terms">使用条款</string>
+    <string name="about_contact">联系我们</string>
+    
+    <!-- 通用文本 -->
+    <string name="button_ok">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="success">成功</string>
+    <string name="error">错误</string>
+    <string name="warning">警告</string>
+    <string name="info">信息</string>
+    <string name="loading">加载中...</string>
+    <string name="retry">重试</string>
+    <string name="back">返回</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    
+    <!-- 错误消息 -->
+    <string name="error_invalid_input">输入无效</string>
+    <string name="error_network">网络连接异常</string>
+    <string name="error_sdk_not_initialized">SDK未初始化</string>
+    <string name="error_ad_not_loaded">广告未加载</string>
+    <string name="error_unexpected">发生未预期的错误</string>
+    
+    <!-- 权限管理页面文本 -->
+    <string name="permission_title">权限管理</string>
+    <string name="permissions_list_title">详细权限列表</string>
+    <string name="app_permission_status">应用权限状态</string>
+    <string name="request_all_permissions">请求所有权限</string>
+    <string name="permission_granted">已授予</string>
+    <string name="permission_denied">未授予</string>
+    <string name="all_permissions_granted">所有必要权限已授予</string>
+    <string name="some_permissions_denied">部分权限未授予，可能影响广告功能</string>
+    <string name="location_permission_name">位置权限</string>
+    <string name="location_permission_desc">用于提供基于位置的广告</string>
+    <string name="phone_state_permission_name">电话状态权限</string>
+    <string name="phone_state_permission_desc">用于广告追踪和分析</string>
+    <string name="storage_permission_name">存储权限</string>
+    <string name="storage_permission_desc">用于缓存广告资源</string>
+    <string name="network_state_permission_name">网络状态权限</string>
+    <string name="network_state_permission_desc">用于检查网络连接</string>
+    <string name="wifi_state_permission_name">WiFi状态权限</string>
+    <string name="wifi_state_permission_desc">用于优化广告加载</string>
+    
+    <!-- 权限请求对话框文本 -->
+    <string name="permission_request_title">权限请求</string>
+    <string name="permission_request_message">为了提供更好的广告体验，我们需要请求以下权限：\n\n1. 位置权限：用于提供基于位置的广告\n2. 电话状态权限：用于广告追踪和分析\n3. 存储权限：用于缓存广告资源\n4. 网络和WiFi状态权限：用于优化广告加载\n\n同时，我们会严格遵守隐私政策，保护您的个人信息安全。</string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意</string>
+    <string name="read_privacy_policy">阅读隐私政策</string>
+    <string name="permission_request_canceled">权限请求已取消，部分广告功能可能受限</string>
+    
+    <!-- 隐私授权相关文本 -->
+    <string name="privacy_consent_title">隐私授权</string>
+    <string name="privacy_consent_message">我们尊重您的隐私，根据GDPR和CCPA法规，我们需要您的同意才能：\n\n1. 收集和使用您的个人数据用于广告个性化\n2. 与第三方广告合作伙伴共享必要的信息\n3. 使用广告ID进行广告追踪和分析\n\n您可以随时在设置中更改这些偏好。</string>
+    <string name="privacy_consent_canceled">隐私授权已取消，广告功能可能受限</string>
+    <string name="privacy_settings_title">隐私设置</string>
+    <string name="privacy_settings_message">在这里，您可以管理您的隐私偏好：\n\n1. 广告个性化：允许根据您的兴趣显示广告\n2. 数据共享：允许与第三方共享数据\n3. 广告追踪：允许使用广告ID进行追踪\n\n这些设置将影响您的广告体验。</string>
+    <string name="settings">设置</string>
+    <string name="save">保存</string>
+</resources>

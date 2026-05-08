@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material3 主题颜色  -->
+    <color name="primary">#2196F3</color>
+    <color name="primaryVariant">#1976D2</color>
+    <color name="accent">#FF5722</color>
+
+    <color name="secondary">#7D5260</color>
+    <color name="secondaryVariant">#018786</color>
+    <color name="background">#F5F5F5</color>
+    <color name="background_color">#FFFBFE</color>
+    <color name="surface">#FFFBFE</color>
+    <color name="surface_color">#FFFBFE</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="onBackground">#1C1B1F</color>
+    <color name="onSurface">#1C1B1F</color>
+    <color name="onError">#FFFFFF</color>
+    
+    <!-- 状态颜色 -->
+    <color name="success">#4CAF50</color>
+    <color name="error">#F44336</color>
+    <color name="warning">#FFC107</color>
+    <color name="info">#2196F3</color>
+    
+    <!-- 其他常用颜色 -->
+    <color name="gray">#757575</color>
+    <color name="lightGray">#F5F5F5</color>
+    <color name="darkGray">#424242</color>
+    
+    <!-- 文本颜色 -->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="disabled_text">#BDBDBD</color>
+    
+    <!-- 自定义颜色 -->
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_900">#212121</color>
+    
+    <!-- 透明度颜色 -->
+    <color name="black_50">#80000000</color>
+    <color name="white_50">#80FFFFFF</color>
+    
+    <!-- 底部导航栏颜色 -->
+    <color name="bottom_nav_inactive">#79747E</color>
+    <color name="bottom_nav_active">#6750A4</color>
+    
+    <!-- 权限相关颜色 -->
+    <color name="permission_granted">#4CAF50</color>
+    <color name="permission_denied">#F44336</color>
+</resources>

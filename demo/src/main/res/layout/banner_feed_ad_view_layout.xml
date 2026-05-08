@@ -1,0 +1,151 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/default_feed_ad_bg">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <FrameLayout
+            android:id="@+id/flADPic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivADPic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                tools:background="@drawable/tt_ad_cover_btn_begin_bg" />
+
+            <FrameLayout
+                android:id="@+id/flVideo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:visibility="visible"
+                tools:background="@android:color/background_dark" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvADTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:ellipsize="end"
+            android:gravity="top|start"
+            android:lineSpacingExtra="2dp"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColor="#2B2B2B"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/flADPic"
+            app:layout_constraintTop_toTopOf="@+id/flADPic"
+            tools:text="点击这里是1句广告语dddddddd点击这里是1句广告语dddddddd点击这里是1句广告语ddddddddd点击这里是1句广告语ddddddddd" />
+
+        <TextView
+            android:id="@+id/tvADDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:lines="2"
+            android:maxLines="2"
+            android:textColor="#6B6B6B"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toStartOf="@+id/flADCreative"
+            app:layout_constraintStart_toStartOf="@+id/tvADTitle"
+            app:layout_constraintTop_toBottomOf="@+id/tvADTitle"
+            tools:text="这里是简介这里是简介这里是简介这里是简介这里是简介这里是简介这里是简介" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linearLayoutCompat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@+id/flADPic"
+            app:layout_constraintEnd_toEndOf="@+id/tvADDesc"
+            app:layout_constraintStart_toEndOf="@+id/flADPic">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivADSmall"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginEnd="4dp" />
+
+            <TextView
+                android:id="@+id/tvADSource"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="#939393"
+                android:textSize="12sp"
+                tools:text="点击这里是1句广告来源ddddddddd" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <FrameLayout
+            android:id="@+id/flADCreative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/btnADCreative"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:background="@drawable/mediation_btn_bg_creative"
+                android:gravity="center"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                tools:text="立即下载" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flADLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/tt_feed_top_bg"
+        android:paddingStart="4dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="2dp"
+        android:text="自渲染信息流标识"
+        android:textColor="@color/white" />
+</FrameLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用主题 - Material3 风格 -->
+    <style name="Theme.MyApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 主色调 -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondaryVariant</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorError">@color/error</item>
+
+        <!-- 文本颜色 -->
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+        <item name="colorOnBackground">@color/onBackground</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+        <item name="colorOnError">@color/onError</item>
+
+        <!-- 窗口属性 -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- 组件样式 -->
+        <item name="materialButtonStyle">@style/Widget.MyApp.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.MyApp.CardView</item>
+        <item name="toolbarStyle">@style/Widget.MyApp.Toolbar</item>
+        <item name="bottomNavigationStyle">@style/Widget.MyApp.BottomNavigationView</item>
+    </style>
+
+    <!-- 不带ActionBar的主题版本 -->
+    <style name="Theme.MyApp.NoActionBar" parent="Theme.MyApp">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- 按钮样式 -->
+    <style name="Widget.MyApp.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+    
+    <!-- 提升按钮样式 -->
+    <style name="Widget.MyApp.Button.Elevated" parent="Widget.Material3.Button.ElevatedButton">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+    
+    <!-- 文本按钮样式 -->
+    <style name="Widget.MyApp.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- 卡片样式 -->
+    <style name="Widget.MyApp.CardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- 工具栏样式 -->
+    <style name="Widget.MyApp.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.MyApp.Toolbar.Title</item>
+    </style>
+
+    <!-- 底部导航栏样式 -->
+    <style name="Widget.MyApp.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_item_color</item>
+        <item name="itemTextColor">@color/bottom_nav_item_color</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="android:background">@color/surface</item>
+    </style>
+
+    <!-- 文本样式 -->
+    <style name="TextAppearance.MyApp.Toolbar.Title" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/onPrimary</item>
+    </style>
+
+    <!-- 权限状态样式 -->
+    <style name="PermissionStatus" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PermissionStatus.Success" parent="PermissionStatus">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="PermissionStatus.Error" parent="PermissionStatus">
+        <item name="android:textColor">@color/error</item>
+    </style>
+</resources>
