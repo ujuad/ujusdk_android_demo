@@ -7,7 +7,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.wlyuan.callcenter"
+        applicationId = "com.ujuad.demo"
         minSdk = 26
         targetSdk = 36
         versionCode = 310
@@ -19,7 +19,7 @@ android {
         multiDexEnabled = true
 
         ndk {
-            abiFilters.addAll(listOf("armeabi-v7a", "arm64-v8a"))
+            abiFilters.addAll(listOf("arm64-v8a"))
         }
 
     }
